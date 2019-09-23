@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite
+}
+
+.header h1{
+    text-align: center;
+    color: olive;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bigTitle{
+    font-size: 60px;
+}
+
+.container{
+    font-size: 14px;
+}
+
+p{
+    text-align: center;
+}

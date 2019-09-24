@@ -9,16 +9,105 @@
 </head>
 <body>
     <div class="header">
-        <h1 id="bigTitle">Qi Si's Website</h1>
+        <h1 id="bigTitle">Welcome to Qi Si's Website</h1>
     </div>
 
-    <div class="rollingWord">
-        <marquee direction:right>Welcome to my Website</marquee>
-    </div>
+	<div id="side1">
+		<video width="574" height="708" controls>
+				<source src="project/PokemonTrainerDemo.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div class="container" id="main">
+         <h1>My Project</h1>
+		 <h2>Pokemon Trainer Demo</h2>
+		 <div id = "pic">
+			<p>
+			<img src = "DogHead.jpg" width = "250" height = "250" alt = "pic of typing in url" id = "urlpic" >
+			 </p>
+		 </div>
+		<h3>Let's go! Pokemon Trainer</h3>
+		<strong>Author : Xuefeng Xu, Qi Si</strong>
+		<p>Tools use: SFML, Cpp, CMake</p>
 
-    <div class="container">
-        <p>This is a paragraph!</p>
-    </div>
+		<strong>Project Skeleton:</strong>
+		<ol>
+			<li>app.cpp: main entrance of the program</li>
+			<li>ball.hpp: define a pokeabll with sprite</li>
+			<li>pokemon.hpp: define Pokemon and set different image for pokemon</li>
+			<li>trainer.hpp: define a pokemon tainer and add animation for it</li>
+			<li>pokedex.hpp: show the collection of pokemon</li>
+			<li>scoreBoard.hpp: Set a score board for the game</li>
+			<li>gameOver.hpp: After the game, show the score of player's</li>
+			<li>world.hpp: element interaction</li>
+		</ol>
+		<strong>Working Log:</strong>
+		<ul>
+			<li>Sep 16th, 2019</li>
+			<li class="hideDot">
+				<ol>
+					<li>Initialize the project and render the window</li>
+					<li>Add rock class </li>
+					<li>Write Project skeleton</li>
+				</ol>
+			</li>
+			<li>Sep 17th, 2019</li>
+			<li class="hideDot">
+				<ol>
+					<li>Create classes: Ball, Pokemon, Trainer</li>
+					<li>Set Texture for thoes three elements</li>
+					<li>Make the Trainer move on the canvas and throw a ball</li>
+					<li>Change the project to "Let's go! Pokemon Trainer"</li>
+				</ol>
+			</li>
+			<li>Sep 18th, 2019</li>
+			<li class="hideDot">
+				<ol>
+					<li>Add movement for the trainer</li>
+					<li>Add pokemon and movement into class</li>
+					<li>Use sprite sheet for animation</li>
+				</ol>
+			</li>
+			<li>Sep 19th, 2019</li>
+			<li class="hideDot">
+				<ol>
+					<li>Add background and music</li>
+					<li>Create score board and end of game screen</li>
+					<li>Fix bugs</li>
+				</ol>
+			</li>
+		</ul>
+		<strong>Plans:</strong>
+		<ul>
+			<li>Sep 18th, 2019:</li>
+			<li class="hideDot">
+				<ol>
+					<li>Add different kinds of pokemon</li>
+					<li>Set constrains for the trainer (Don't go off the screen)</li>
+					<li>Make animation using sprite sheet for the trainer</li>
+					<li>Make Pokemon enter the screen </li>
+				</ol>
+			</li>
+			<li>Sep 19th, 2019:</li>
+			<li class="hideDot">
+				<ol>
+					<li>Create score board</li>
+					<li>fix bugs</li>
+					<li>fix animation for the trainer</li>
+					<li>Add more pokemon into the game</li>
+					<li>Add map for the game</li>
+					<li>Add audio fot the game</li>
+				</ol>
+			</li>
+			<li>Sep 20th, 2019:</li>
+			<li class="hideDot">
+				<ol>
+					<li>Make document</li>
+					<li>Bug fix</li>
+				</ol>
+			</li>
+		</ul>
+
+   </div>
     
 </body>
 </html>
